@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Produced via ChatGpt-->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zain Imran — Software Developer</title>
+  <meta name="description" content="Software developer specializing in C++, Java, and ML. Projects, resume, and contact." />
+  <meta name="author" content="Zain Imran" /> 
+  <meta property="og:title" content="Zain Imran— Software Developer" />
+  <meta property="og:description" content="Projects, resume, and contact." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="button">Contact</a>
+    </nav>
+    <div class="hero">
+      <h1>Zain Imran</h1>
+      <p>CS @ UBC (Expected 2028)</p>
+      <div class="links">
+        <a href="https://github.com/Z-Imran" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/zain-imran-b06143383/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="/resume.pdf" target="_blank" rel="noopener">Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About</h2>
+      <p>I’m a CS student at UBC, currently in my third year. I'm originally from Alberta but I now live in Vancouver. I enjoy working on machine learning, loy level systems, and furthering my skills as a software engineer. Currently I'm  also learning Unity on the side. </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="cards">
+        <article class="card">
+            <h3>Asynchronous C++ HTTP Server</h3>
+            <p>Thread pool, HTTP request parser, and ApacheBench testing.</p>
+            <div class="tags">C++ · Concurrency · HTTP · Sockets</div>
+            <a class="button" href="https://github.com/Z-Imran/Cpp-Http-Server" target="_blank" rel="noopener">Source</a>
+          </article>
+  
+          <article class="card">
+            <h3>MNIST Neural Net</h3>
+            <p>3-layer MLP from scratch with forward/backpropagation on MNIST dataset (>97% accuracy).</p>
+            <div class="tags">Python · NumPy · ML · Tensorflow</div>
+            <a class="button" href="https://github.com/Z-Imran/MNIST-Neural-Network" target="_blank" rel="noopener">Source</a>
+          </article>
+  
+          <article class="card">
+            <h3>Java Based Game — Treasure Hunters</h3>
+            <p>OOP-based adventure game with Swing UI, JSON save/load, leaderboard, and unit tests.</p>
+            <div class="tags">Java · Swing · OOP</div>
+            <a class="button" href="https://github.com/Z-Imran/CPSC-210-project" target="_blank" rel="noopener">Source</a>
+          </article>
+  
+          <article class="card">
+            <h3>R Data Science Project</h3>
+            <p>Exploratory data analysis and visualization on real-world datasets, applying K-NN Classification models in R.</p>
+            <div class="tags">R · Data Science · Visualization</div>
+            <a class="button" href="https://github.com/Z-Imran/DSCI_100_Project" target="_blank" rel="noopener">Source</a>
+          </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Best way to contact me is through my email.</p>
+      <p><a href="mailto:imranzain1234@gmail.com" class="button">imranzain1234@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <small>© <span id="year"></span> Zain Imran</small>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
